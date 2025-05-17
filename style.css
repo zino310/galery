@@ -1,0 +1,32 @@
+body {
+            margin: 0;
+            padding: 20px;
+            background: linear-gradient(135deg, #f6d365 0%, #fda085 100%);
+            font-family: 'Comic Neue', cursive;
+            text-align: center;
+            cursor: url('https://cur.cursors-4u.net/cursors/cur-13/cur1156.cur'), auto;
+        }
+#su{
+    text-align: center;
+    margin-top: 50px;
+    outline: auto; 
+    background-color: blanchedalmond;
+}
+#img img,
+#img video {
+    width: 180px;
+    height: 200px;
+    object-fit: cover;
+    display: inline-block;
+    margin: 5px;
+    margin-left: 10px;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);
+}
+#img img:hover,
+#img video:hover {
+    transform: scale(1.2) rotate(5deg);
+    animation: bounce 0.4s ease;
+    cursor: pointer;
+}
